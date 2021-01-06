@@ -22,7 +22,7 @@
 	<div class="row">
 		<div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
 			<div class="login-panel panel panel-default">
-				<center><img width=220 height=68 src='images/logo.png' />
+				<center>
 					<br><br><i>IZZI SERVICE</i>
 					<!-- <img src="https://izzi-soft.com/assets/images/logonya.png" style="width:128px;height:68px;"> --></center>
 				<h1></h1>
