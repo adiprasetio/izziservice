@@ -7,4 +7,9 @@ class Page extends CI_Controller {
 	{
 		$this->load->view('index');
 	}
+
+	public function kategori($value='')
+	{
+		# code...
+	}
 }

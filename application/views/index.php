@@ -26,7 +26,7 @@
             <!-- === header === -->
 
             <header class="hidden">
-                <h2>Product categories</h2>
+                <h2>Kategori Terpopuler</h2>
             </header>
 
             <div class="container">
@@ -112,10 +112,7 @@
                 <header>
                     <div class="row">
                         <div class="col-md-offset-2 col-md-8 text-center">
-                            <h2 class="title">Popular Service</h2>
-                            <div class="text">
-                                <p>Check out our latest collections</p>
-                            </div>
+                            <h2 class="title">Kategori Terpopuler</h2>
                         </div>
                     </div>
                 </header>

@@ -15,8 +15,8 @@ $config['url_suffix'] = '';
 
 //Email Setting
 $config['email_host'] = 'smtp.zoho.com';
-$config['email_username'] = 'info@izzi-soft.com';
-$config['email_password'] = 'password890';
+$config['email_username'] = 'service@izzi-soft.com';
+$config['email_password'] = '';
 
 $config['email_admin'] = 'info@izzi-soft.com';
 //End Email Setting
@@ -333,9 +333,9 @@ $config['encryption_key'] = '';
 |
 */
 $config['sess_driver'] = 'database';
-$config['sess_cookie_name'] = 'session_okgo';
+$config['sess_cookie_name'] = 'izzi_session';
 $config['sess_expiration'] = 0;
-$config['sess_save_path'] = 'session_okgo';
+$config['sess_save_path'] = 'izzi_session';
 $config['sess_match_ip'] = FALSE;
 $config['sess_time_to_update'] = 300;
 $config['sess_regenerate_destroy'] = FALSE;
