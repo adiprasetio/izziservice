@@ -26,7 +26,7 @@
             <!-- === header === -->
 
             <header class="hidden">
-                <h2>Product categories</h2>
+                <h2>Kategori Terpopuler</h2>
             </header>
 
             <div class="container">
@@ -38,7 +38,7 @@
                     <a href="#">
                         <figure>
                             <i class="f-icon f-icon-sofa"></i>
-                            <figcaption>Sofa</figcaption>
+                            <figcaption>AC</figcaption>
                         </figure>
                     </a>
 
@@ -47,7 +47,7 @@
                     <a href="#">
                         <figure>
                             <i class="f-icon f-icon-armchair"></i>
-                            <figcaption>Armchairs</figcaption>
+                            <figcaption>CCTV</figcaption>
                         </figure>
                     </a>
 
@@ -56,7 +56,7 @@
                     <a href="#">
                         <figure>
                             <i class="f-icon f-icon-chair"></i>
-                            <figcaption>Chairs</figcaption>
+                            <figcaption>ELEKTRONIK</figcaption>
                         </figure>
                     </a>
 
@@ -65,7 +65,7 @@
                     <a href="#">
                         <figure>
                             <i class="f-icon f-icon-dining-table"></i>
-                            <figcaption>Dining tables</figcaption>
+                            <figcaption>FURNITUR</figcaption>
                         </figure>
                     </a>
 
@@ -74,7 +74,7 @@
                     <a href="#">
                         <figure>
                             <i class="f-icon f-icon-media-cabinet"></i>
-                            <figcaption>Media storage</figcaption>
+                            <figcaption>JARINGAN</figcaption>
                         </figure>
                     </a>
 
@@ -83,7 +83,7 @@
                     <a href="#">
                         <figure>
                             <i class="f-icon f-icon-table"></i>
-                            <figcaption>Tables</figcaption>
+                            <figcaption>KOMPUTER</figcaption>
                         </figure>
                     </a>
 
@@ -92,118 +92,11 @@
                     <a href="#">
                         <figure>
                             <i class="f-icon f-icon-bookcase"></i>
-                            <figcaption>Bookcase</figcaption>
+                            <figcaption>RENOVASI & BANGUN</figcaption>
                         </figure>
                     </a>
 
-                    <!-- === icon item === -->
-
-                    <a href="#">
-                        <figure>
-                            <i class="f-icon f-icon-bedroom"></i>
-                            <figcaption>Bedroom</figcaption>
-                        </figure>
-                    </a>
-
-                    <!-- === icon item === -->
-
-                    <a href="#">
-                        <figure>
-                            <i class="f-icon f-icon-nightstand"></i>
-                            <figcaption>Nightstand</figcaption>
-                        </figure>
-                    </a>
-
-                    <!-- === icon item === -->
-
-                    <a href="#">
-                        <figure>
-                            <i class="f-icon f-icon-children-room"></i>
-                            <figcaption>Children room</figcaption>
-                        </figure>
-                    </a>
-
-                    <!-- === icon item === -->
-
-                    <a href="#">
-                        <figure>
-                            <i class="f-icon f-icon-kitchen"></i>
-                            <figcaption>Kitchen</figcaption>
-                        </figure>
-                    </a>
-
-                    <!-- === icon item === -->
-
-                    <a href="#">
-                        <figure>
-                            <i class="f-icon f-icon-bathroom"></i>
-                            <figcaption>Bathroom</figcaption>
-                        </figure>
-                    </a>
-
-                    <!-- === icon item === -->
-
-                    <a href="#">
-                        <figure>
-                            <i class="f-icon f-icon-wardrobe"></i>
-                            <figcaption>Wardrobe</figcaption>
-                        </figure>
-                    </a>
-
-                    <!-- === icon item === -->
-
-                    <a href="#">
-                        <figure>
-                            <i class="f-icon f-icon-shoe-cabinet"></i>
-                            <figcaption>Shoe cabinet</figcaption>
-                        </figure>
-                    </a>
-
-                    <!-- === icon item === -->
-
-                    <a href="#">
-                        <figure>
-                            <i class="f-icon f-icon-office"></i>
-                            <figcaption>Office</figcaption>
-                        </figure>
-                    </a>
-
-                    <!-- === icon item === -->
-
-                    <a href="#">
-                        <figure>
-                            <i class="f-icon f-icon-bar-set"></i>
-                            <figcaption>Bar sets</figcaption>
-                        </figure>
-                    </a>
-
-                    <!-- === icon item === -->
-
-                    <a href="#">
-                        <figure>
-                            <i class="f-icon f-icon-lightning"></i>
-                            <figcaption>Lightning</figcaption>
-                        </figure>
-                    </a>
-
-                    <!-- === icon item === -->
-
-                    <a href="#">
-                        <figure>
-                            <i class="f-icon f-icon-carpet"></i>
-                            <figcaption>Varpet</figcaption>
-                        </figure>
-                    </a>
-
-                    <!-- === icon item === -->
-
-                    <a href="#">
-                        <figure>
-                            <i class="f-icon f-icon-accessories"></i>
-                            <figcaption>Accessories</figcaption>
-                        </figure>
-                    </a>
-
+                   
                 </div> <!--/owl-icons-->
             </div> <!--/container-->
         </section>
@@ -219,10 +112,7 @@
                 <header>
                     <div class="row">
                         <div class="col-md-offset-2 col-md-8 text-center">
-                            <h2 class="title">Popular products</h2>
-                            <div class="text">
-                                <p>Check out our latest collections</p>
-                            </div>
+                            <h2 class="title">Kategori Terpopuler</h2>
                         </div>
                     </div>
                 </header>
@@ -639,12 +529,12 @@
                     <div class="row">
                         <div class="col-sm-8">
                             <h2>Visit our showroom</h2>
-                            <p>200 12th Ave, New York, NY 10001, USA</p>
-                            <p>Mon - Sat: 10 am - 6 pm &nbsp; &nbsp; | &nbsp; &nbsp; Sun: 12pm - 2 pm</p>
+                            <p>Jl. H. Dimun Raya No.5A, RT.04/RW.24, Sukamaju, Kec. Cilodong, Kota Depok, Jawa Barat 16415</p>
+            
                         </div>
                         <div class="col-sm-4 text-center">
                             <a href="#" class="btn btn-clean"><span class="icon icon-map-marker"></span> Get directions</a>
-                            <div class="call-us h4"><span class="icon icon-phone-handset"></span> 333.278.06622</div>
+                            <div class="call-us h4"><span class="icon icon-phone-handset"></span> 0819-2001-233</div>
                         </div>
                     </div>
                 </div>
