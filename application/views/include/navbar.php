@@ -72,82 +72,18 @@
                                                 <div class="row">
                                                     
                                                     <!--icon item-->                                                
-
+<?php foreach ($get_kategori as $key => $get_kategori) {?>
                                                     <div class="col-sm-3 col-xs-6">
                                                         <a href="javascript:void(0);">
                                                             <figure>
-                                                                <i class="f-icon f-icon-sofa"></i>
-                                                                <figcaption>AC</figcaption>
+                                                                <i class="<?php echo $get_kategori['icon'] ?>"></i>
+                                                                <figcaption><?php echo $get_kategori['nama_kategori'] ?></figcaption>
                                                             </figure>
                                                         </a>
                                                     </div>
-                                                    
+                                    <?php } ?>                
                                                     <!--icon item-->                                                
 
-                                                    <div class="col-sm-3 col-xs-6">
-                                                        <a href="javascript:void(0);">
-                                                            <figure>
-                                                                <i class="f-icon f-icon-armchair"></i>
-                                                                <figcaption>CCTV</figcaption>
-                                                            </figure>
-                                                        </a>
-                                                    </div>
-                                                    
-                                                    <!--icon item-->                                                
-
-                                                    <div class="col-sm-3 col-xs-6">
-                                                        <a href="javascript:void(0);">
-                                                            <figure>
-                                                                <i class="f-icon f-icon-chair"></i>
-                                                                <figcaption>ELEKTRONIK</figcaption>
-                                                            </figure>
-                                                        </a>
-                                                    </div>
-                                                    
-                                                    <!--icon item-->                                                
-
-                                                    <div class="col-sm-3 col-xs-6">
-                                                        <a href="javascript:void(0);">
-                                                            <figure>
-                                                                <i class="f-icon f-icon-dining-table"></i>
-                                                                <figcaption>FURNITUR</figcaption>
-                                                            </figure>
-                                                        </a>
-                                                    </div>
-                                                    
-                                                    <!--icon item-->                                                
-
-                                                    <div class="col-sm-3 col-xs-6">
-                                                        <a href="javascript:void(0);">
-                                                            <figure>
-                                                                <i class="f-icon f-icon-media-cabinet"></i>
-                                                                <figcaption>JARINGAN</figcaption>
-                                                            </figure>
-                                                        </a>
-                                                    </div>
-                                                    
-                                                    <!--icon item-->                                                
-
-                                                    <div class="col-sm-3 col-xs-6">
-                                                        <a href="javascript:void(0);">
-                                                            <figure>
-                                                                <i class="f-icon f-icon-table"></i>
-                                                                <figcaption>KOMPUTER</figcaption>
-                                                            </figure>
-                                                        </a>
-                                                    </div>
-                                                    
-                                                    <!--icon item-->                                                
-
-                                                    <div class="col-sm-3 col-xs-6">
-                                                        <a href="javascript:void(0);">
-                                                            <figure>
-                                                                <i class="f-icon f-icon-bookcase"></i>
-                                                                <figcaption>RENOVASI & BANGUN</figcaption>
-                                                            </figure>
-                                                        </a>
-                                                    </div>
-                                                    
 
                                                 </div> <!--/row-->
                                             </div> <!--/categories-->

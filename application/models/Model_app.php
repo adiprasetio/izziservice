@@ -5,6 +5,11 @@ class Model_app extends CI_Model{
         parent::__construct();
     }
 
+    public function get_kategori()
+    {
+        return $this->db->get('kategori')->result_array();
+    }
+
     //  ================= AUTOMATIC CODE ==================
     public function getkodeticket()
     {

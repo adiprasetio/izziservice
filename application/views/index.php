@@ -34,67 +34,15 @@
                 <div class="owl-icons">
 
                     <!-- === icon item === -->
-
+<?php foreach ($get_kategori as $key => $get_kategori) {?>
                     <a href="#">
                         <figure>
-                            <i class="f-icon f-icon-sofa"></i>
-                            <figcaption>AC</figcaption>
+                            <i class="<?php echo $get_kategori['icon'] ?>"></i>
+                            <figcaption><?php echo $get_kategori['nama_kategori'] ?></figcaption>
                         </figure>
                     </a>
-
+<?php } ?>
                     <!-- === icon item === -->
-
-                    <a href="#">
-                        <figure>
-                            <i class="f-icon f-icon-armchair"></i>
-                            <figcaption>CCTV</figcaption>
-                        </figure>
-                    </a>
-
-                    <!-- === icon item === -->
-
-                    <a href="#">
-                        <figure>
-                            <i class="f-icon f-icon-chair"></i>
-                            <figcaption>ELEKTRONIK</figcaption>
-                        </figure>
-                    </a>
-
-                    <!-- === icon item === -->
-
-                    <a href="#">
-                        <figure>
-                            <i class="f-icon f-icon-dining-table"></i>
-                            <figcaption>FURNITUR</figcaption>
-                        </figure>
-                    </a>
-
-                    <!-- === icon item === -->
-
-                    <a href="#">
-                        <figure>
-                            <i class="f-icon f-icon-media-cabinet"></i>
-                            <figcaption>JARINGAN</figcaption>
-                        </figure>
-                    </a>
-
-                    <!-- === icon item === -->
-
-                    <a href="#">
-                        <figure>
-                            <i class="f-icon f-icon-table"></i>
-                            <figcaption>KOMPUTER</figcaption>
-                        </figure>
-                    </a>
-
-                    <!-- === icon item === -->
-
-                    <a href="#">
-                        <figure>
-                            <i class="f-icon f-icon-bookcase"></i>
-                            <figcaption>RENOVASI & BANGUN</figcaption>
-                        </figure>
-                    </a>
 
                    
                 </div> <!--/owl-icons-->
