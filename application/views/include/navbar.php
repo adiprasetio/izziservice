@@ -46,24 +46,11 @@
                             <!-- Furniture icons in dropdown-->
 
                             <li>
-                                <a href="category.html">Service <span class="open-dropdown"><i class="fa fa-angle-down"></i></span></a>
+                                <a href="<?php echo base_url('kategori') ?>">Service <span class="open-dropdown"><i class="fa fa-angle-down"></i></span></a>
                                 <div class="navbar-dropdown">
                                     <div class="navbar-box">
 
                                         <!-- box-1 (left-side)-->
-
-                                        <div class="box-1">
-                                            <div class="image">
-                                                <img src="assets/images/blog-2.jpg" alt="Lorem ipsum" />
-                                            </div>
-                                            <div class="box">
-                                                <div class="h2">Service Kami</div>
-                                                <div class="clearfix">
-                                                    <p>Homes that differ in terms of style, concept and architectural solutions have been furnished by Furniture Factory. These spaces tell of an international lifestyle that expresses modernity, research and a creative spirit.</p>
-                                                    <a class="btn btn-clean btn-big" href="ideas.html">Explore</a>
-                                                </div>
-                                            </div>
-                                        </div> <!--/box-1-->
 
                                         <!-- box-2 (right-side)-->
 
@@ -74,9 +61,9 @@
                                                     <!--icon item-->                                                
 <?php foreach ($get_kategori as $key => $get_kategori) {?>
                                                     <div class="col-sm-3 col-xs-6">
-                                                        <a href="javascript:void(0);">
+                                                        <a href="<?php echo base_url('kategori/'). $get_kategori['id_kategori'] ?>">
                                                             <figure>
-                                                                <i class="<?php echo $get_kategori['icon'] ?>"></i>
+                                                                 <img style="width: 50px;margin-bottom: 30px;" src="<?php echo base_url('assets/images/icon/').$get_kategori['icon'] ?>"/>
                                                                 <figcaption><?php echo $get_kategori['nama_kategori'] ?></figcaption>
                                                             </figure>
                                                         </a>
@@ -94,7 +81,7 @@
 
                             <!-- Simple menu link-->
 
-                            <li><a href="<?php echo base_url('register') ?>">Daftar</a></li>
+                            <li><a href="javascript:void(0);" class="open-login">Daftar</a></li>
                         </ul>
                     </div> <!--/floating-menu-->
                 </div> <!--/navigation-main-->
@@ -124,5 +111,6 @@
                     </form>
                 </div>
 
+               
             </div> <!--/container-->
         </nav>

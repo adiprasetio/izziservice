@@ -35,9 +35,9 @@
 
                     <!-- === icon item === -->
 <?php foreach ($get_kategori as $key => $get_kategori) {?>
-                    <a href="#">
+                    <a href="<?php echo base_url('kategori/'). $get_kategori['id_kategori'] ?>">
                         <figure>
-                            <i class="<?php echo $get_kategori['icon'] ?>"></i>
+                            <img style="width: 50px;margin-bottom: 30px;" src="<?php echo base_url('assets/images/icon/').$get_kategori['icon'] ?>"/>
                             <figcaption><?php echo $get_kategori['nama_kategori'] ?></figcaption>
                         </figure>
                     </a>
@@ -481,7 +481,7 @@
             
                         </div>
                         <div class="col-sm-4 text-center">
-                            <a href="#" class="btn btn-clean"><span class="icon icon-map-marker"></span> Get directions</a>
+                            <a target="_blank" href="https://g.page/izzi-soft-official?share" class="btn btn-clean"><span class="icon icon-map-marker"></span> Get directions</a>
                             <div class="call-us h4"><span class="icon icon-phone-handset"></span> 0819-2001-233</div>
                         </div>
                     </div>
